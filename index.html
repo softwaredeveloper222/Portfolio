@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChengYu(诚宇) — Senior Mobile & Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">ChengYu(诚宇).DEV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-3">
+                        <div class="theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon" id="themeIcon"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row align-items-center reverse-mobile">
+                <div class="col-lg-6">
+                    <div class="hero-content text-start">
+                        <h1 class="hero-title">Hello, I'm ChengYu(诚宇)</h1>
+                        <p class="hero-description ms-0"> <b>
+                                Senior Mobile & Web Developer
+                            </b></p>
+                        <a href="#projects" class="cta-button">View My Work</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="orbit-container">
+
+                            <img src="photo1.jpg" alt="AI Developer" class="main-hero-img">
+
+                            <div class="orbit-ring">
+                                <div class="floating-icon icon-1"><i class="fab fa-python"></i></div>
+                                <div class="floating-icon icon-2"><i class="fas fa-brain"></i></div>
+                                <div class="floating-icon icon-3"><i class="fas fa-database"></i></div>
+                                <div class="floating-icon icon-4"><i class="fas fa-code"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 fade-in">
+                    <img src="photo-1571171637578-41bc2dd41cd2.jpeg" alt="ChengYu(诚宇)"
+                        class="about-img">
+                </div>
+                <div class="col-lg-7 fade-in">
+                    <p class="about-text">
+                        Hi, I'm ChengYu(诚宇) — a passionate developer exploring the world of Web and modern Mobile
+                        technologies. I love building clean, scalable, and meaningful digital experiences that solve
+                        real problems.
+                    </p>
+                    <p class="about-text">
+                        With a strong foundation in Android and iOS, I'm constantly
+                        learning and experimenting to sharpen my craft. I'm currently diving deep into Backend
+                        Development, Databases, LLMs, and Gen-AI frameworks.
+                    </p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-code"></i> Building Web & Mobile applications</li>
+                        <li><i class="fas fa-brain"></i> Exploring LLMs and Gen-AI</li>
+                        <li><i class="fas fa-database"></i> Database Management and optimization</li>
+                        <li><i class="fas fa-rocket"></i> Creating AI-powered solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3 class="skill-name">React.js</h3>
+                    <p style="color: var(--text-secondary);">Frontend development</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="99"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-next-js skill-icon">NEXT</i>
+                    <h3 class="skill-name">Next.js</h3>
+                    <p style="color: var(--text-secondary);">Frontend development</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-node-js skill-icon"></i>
+                    <h3 class="skill-name">Node.js</h3>
+                    <p style="color: var(--text-secondary);">Backend development & APIs</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="99"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-js skill-icon"></i>
+                    <h3 class="skill-name">Express.js</h3>
+                    <p style="color: var(--text-secondary);">Backend development & APIs</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="99"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-swift skill-icon"></i>
+                    <h3 class="skill-name">Swift / SwiftUI</h3>
+                    <p style="color: var(--text-secondary);">iOS & macOS => XCode</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="99"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-android skill-icon"></i>
+                    <h3 class="skill-name">Kotlin</h3>
+                    <p style="color: var(--text-secondary);">Android => Android Studio</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="99"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3 class="skill-name">React Native</h3>
+                    <p style="color: var(--text-secondary);">Android & Cross Platform</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="99"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-java skill-icon"></i>
+                    <h3 class="skill-name">Java</h3>
+                    <p style="color: var(--text-secondary);">Android development</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-android skill-icon"></i>
+                    <h3 class="skill-name">JetPack Compose</h3>
+                    <p style="color: var(--text-secondary);">Android development</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3 class="skill-name">MongoDB</h3>
+                    <p style="color: var(--text-secondary);">Database Management</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-rocket skill-icon"></i>
+                    <h3 class="skill-name">Supabase</h3>
+                    <p style="color: var(--text-secondary);">Database Management</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-fire skill-icon"></i>
+                    <h3 class="skill-name">Firebase</h3>
+                    <p style="color: var(--text-secondary);">Database Management</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3 class="skill-name">PostgreSQL</h3>
+                    <p style="color: var(--text-secondary);">Database Management</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fab fa-js skill-icon"></i>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p style="color: var(--text-secondary);">Base Script Language</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3 class="skill-name">TypeScript</h3>
+                    <p style="color: var(--text-secondary);">Extension Script language</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-rocket skill-icon"></i>
+                    <h3 class="skill-name">ROS2</h3>
+                    <p style="color: var(--text-secondary);">Robot Operating System</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3 class="skill-name">3D Object Detection</h3>
+                    <p style="color: var(--text-secondary);">From point cloud</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <h3 class="skill-name">Machine Learning</h3>
+                    <p style="color: var(--text-secondary);">PyTorch, TensoFlow</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <img src="Resource\14.png"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">3D Object Detection From Point Cloud</h3>
+                        <p class="project-desc">
+                            Implemented the 3D object Dectection using pointpillars and integrated it with ROS2.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Python</span>                            
+                            <span class="tag">ROS2</span>                            
+                            <span class="tag">ML</span>                            
+                            <span class="tag">AI</span>                            
+                            <span class="tag">PointPillars</span>                            
+                            <span class="tag">Point Cloud</span>                            
+                        </div>
+                        <div class="project-links">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\15.png"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Training Model</h3>
+                        <p class="project-desc">
+                            Improved the object detection using KITTI Model with KITTI dataset.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">KITTI</span>
+                            <span class="tag">ML</span>                            
+                            <span class="tag">AI</span>                            
+                            <span class="tag">ROS2</span>                            
+                        </div>
+                        <div class="project-links">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <!-- <img src="https://t3.ftcdn.net/jpg/07/66/87/68/360_F_766876856_XDPvm1sg90Ar5Hwf1jRRIHM4FNCXmhKj.jpg" -->
+                    <img src="Resource\12.png"
+                        alt="Project 1" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Modern iOS App Development</h3>
+                        <p class="project-desc">Muselink is a comprehensive platform designed to facilitate seamless collaboration within the music industry. It empowers artists to categorize themselves based on their roles such as vocalist, guitarist, instrumentalist, lyricist, and more.</p>
+                        <div class="project-tags">
+                            <span class="tag">iOS Development</span>
+                            <span class="tag">Swift / SwiftUi</span>
+                            <span class="tag">XCode</span>
+                            <span class="tag">Supabase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\1.jpg"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Web Design Project</h3>
+                        <p class="project-desc">
+                            Perfect pixel web design project for a modern tech startup.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Figma Design</span>
+                            <span class="tag">High-quality</span>                            
+                        </div>
+                        <div class="project-links">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\2.png"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">User-Friendly iOS App Development</h3>
+                        <p class="project-desc">
+                            This is a user-friendly iOS application developed using Swift and SwiftUI.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">iOS Development</span>
+                            <span class="tag">Swift / SwiftUi</span>
+                            <span class="tag">XCode</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\3.jpg"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">MERN Stack Project</h3>
+                        <p class="project-desc">
+                            This is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js,
+                            Node.js).
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">MERN Stack</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">React.js</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\4.png"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Android Application Development</h3>
+                        <p class="project-desc">
+                            The restaurant directory listing app allows users to search for various restaurants based on their location and specific filters. The app is available on both iOS and Android mobile devices.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Android Development</span>
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\5.jpg"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Web Site Design</h3>
+                        <p class="project-desc">
+                           Collection of some of the websites that I have designed for my clients
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Figma Design</span>
+                            <span class="tag">Html</span>
+                            <span class="tag">Css</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\7.jpg"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Android App Development</h3>
+                        <p class="project-desc">
+                            - Choose from a wide range of delicious meals<br>
+                            - Order from your favorite stores or vendors<br>
+                            - Enjoy instant delivery and payment
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Android Studio</span>
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Supabase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\8.png"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Android App Development</h3>
+                        <p class="project-desc">
+                            - List Of Garments <br>
+                            - Add items to cart<br>
+                            - Place order<br>
+                            - Track your pickup & Delivery<br>
+                            - GPS / Google Map Tracking<br>
+                            - Invoice Generation<br>
+                            - Push Notification
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>                            
+                            <span class="tag">Firebase</span>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\9.jpg"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Web Site Design</h3>
+                        <p class="project-desc">
+                            This is a modern and responsive website design project created using Figma. The design focuses on clean aesthetics and user-friendly navigation.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Figma Design</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\10.png"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">iOS Development</h3>
+                        <p class="project-desc">
+                            -DVSS (Driven Vehicle Sharing System) simplifies vehicle transactions. <br>
+                            -Share, rent, buy, or sell vehicles effortlessly with a user-friendly app.<br>
+                            -A disruptive approach to traditional vehicle transactions for added convenience.<br>
+                            -No more credit checks, hidden fees, or complications with DRIVES.<br>
+                            -Our vehicle inventory ensures reliability and easy rentals at affordable rates.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">iOS Development</span>
+                            <span class="tag">Swift / SwiftUI</span>
+                            <span class="tag">XCode</span>
+                            <span class="tag">Supabase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <img src="Resource\11.png"
+                        alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">MERN Stack Application</h3>
+                        <p class="project-desc">
+                            This is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js,
+                            Node.js).
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">React.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-wrapper fade-in">
+                <div class="contact-info">
+                    <h3>Let's build something awesome together.</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                        visions. Feel free to reach out!</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <i class="fas fa-user form-icon"></i>
+                            <input type="text" class="form-control-custom" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-envelope form-icon"></i>
+                            <input type="email" class="form-control-custom" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-comment form-icon"></i>
+                            <textarea class="form-control-custom" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
