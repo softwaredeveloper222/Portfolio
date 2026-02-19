@@ -39,4 +39,5 @@ About Me — Who I am & what I do
 
 Skills — Web + Mobile Development
 
+
 Projects — Highlighting major work
