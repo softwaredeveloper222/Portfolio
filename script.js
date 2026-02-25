@@ -9,7 +9,7 @@ themeToggle.addEventListener('click', () => {
     html.setAttribute('data-theme', newTheme);
     themeIcon.className = newTheme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
     localStorage.setItem('theme', newTheme);
-})
+});
 
 // Load saved theme preference
 const savedTheme = localStorage.getItem('theme') || 'dark';

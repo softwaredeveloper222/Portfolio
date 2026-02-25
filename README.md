@@ -1,6 +1,3 @@
-Portfolio ReadMe
-
-
 LINK = https://ChengYu-soft.netlify.app/
 
 🌐 Personal Portfolio — ChengYu(诚宇) Verma
@@ -41,6 +38,5 @@ Hero Section — Professional intro
 About Me — Who I am & what I do
 
 Skills — Web + Mobile Development
-
 
 Projects — Highlighting major work
